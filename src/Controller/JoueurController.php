@@ -58,7 +58,7 @@ class JoueurController extends AbstractController
     
         $manager->flush();
     
-        return $this->json("michael");
+        return $this->json(1);
     }
 
     #[Route('/joueur', name:'update_joueur',methods:['PUT'])]
@@ -85,7 +85,7 @@ class JoueurController extends AbstractController
 
         $entityManager->flush();
 
-        return $this->json("michael");
+        return $this->json(1);
     }
     
     #[Route('/joueur/{id}',name: "joueur_delete",methods:['DELETE'])]

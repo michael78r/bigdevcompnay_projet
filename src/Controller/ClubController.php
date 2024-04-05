@@ -48,7 +48,7 @@ class ClubController extends AbstractController
     
         $manager->flush();
     
-        return $this->json("michael");
+        return $this->json(1);
     }
     
 
@@ -66,7 +66,7 @@ class ClubController extends AbstractController
 
         $entityManager->flush();
 
-        return $this->json("michael");
+        return $this->json(1);
     }
 
     #[Route('/club/{id}',name: "delete_club",methods:['DELETE'])]

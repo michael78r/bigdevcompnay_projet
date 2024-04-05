@@ -83,32 +83,6 @@ export function Template({ children }) {
 
             <div className="pcoded-main-container">
             <br></br>
-                {/* <div className="pcoded-content"> */}
-                    {/* <div className="page-header">
-                        <div className="page-block">
-                            <div className="row align-items-center">
-                                {pageTitle == "Vue d'Ensemble Manifeste" ? <div className="col-md-12">
-                                    <div className="page-header-title">
-                                        <h5 className="m-b-10">{pageTitle}</h5>
-                                    </div>
-                                    <ul className="breadcrumb">
-                                        <li className="breadcrumb-item"> <Link to="/a_listemanifest"> <i className="feather icon-home"></i> </Link></li>
-                                        <li className="breadcrumb-item"> <Link to="#"></Link></li>
-                                    </ul>
-                                </div> :
-                                    <div className="col-md-12">
-                                        <div className="page-header-title">
-                                            <h5 className="m-b-10">{pageTitle}</h5>
-                                        </div>
-                                        <ul className="breadcrumb">
-                                            <li className="breadcrumb-item"> <Link to="/a_listemanifest"> <i className="feather icon-home"></i> </Link></li>
-                                            <li className="breadcrumb-item"> <Link to="#">{pageTitle}</Link></li>
-                                        </ul>
-                                    </div>}
-
-                            </div>
-                        </div>
-                    </div> */}
                     {children}
                 </div>
             </div>

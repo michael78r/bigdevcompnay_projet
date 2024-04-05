@@ -45,7 +45,7 @@ class NationalController extends AbstractController
     
         $manager->flush();
     
-        return $this->json("michael");
+        return $this->json(1);
     }
        
 
@@ -64,7 +64,7 @@ class NationalController extends AbstractController
 
         $entityManager->flush();
 
-        return $this->json("michael");
+        return $this->json(1);
     }
 
     #[Route('/national/{id}',name: "delete_national",methods:['DELETE'])]
