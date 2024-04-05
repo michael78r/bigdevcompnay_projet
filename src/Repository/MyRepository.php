@@ -21,7 +21,7 @@ class MyRepository{
     }
 
     public function getAll_DetailsJoueur(EntityManagerInterface $entityManager):array {
-        return $this->findAll_("select * from v_joueur", $entityManager);
+        return $this->findAll_("select * from v_joueur ORDER BY nombre_but DESC", $entityManager);
     }
 
     public function getOne_DetailsJoueur(EntityManagerInterface $entityManager) {
